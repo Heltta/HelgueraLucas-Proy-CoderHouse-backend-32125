@@ -1,5 +1,5 @@
 import mongoose, { connect } from "mongoose";
-import { MONGO_URL } from "../config/dotEnVar";
+import { MONGO_URL } from "../config/dotEnVar.js";
 
 
 class Container {
