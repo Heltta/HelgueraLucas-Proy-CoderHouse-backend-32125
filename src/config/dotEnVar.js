@@ -11,4 +11,4 @@ export const SESSION_COOKIE_HTTPONLY = process.env.SESSION_COOKIE_HTTPONLY || fa
 export const SESSION_COOKIE_SECURE = process.env.SESSION_COOKIE_SECURE || false; // miliseconds
 export const SESSION_COOKIE_MAXAGE = process.env.SESSION_COOKIE_MAXAGE || 60000; // miliseconds
 export const SERVER_INTERFACE = process.env.SERVER_INTERFACE || '127.0.0.1';
-export const SERVER_PORT = process.env.PORT || process.env.SERVER_PORT || 8080;
+export const SERVER_PORT = process.env.PORT || process.env.SERVER_PORT;
