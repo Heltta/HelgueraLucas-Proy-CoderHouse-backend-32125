@@ -161,6 +161,6 @@ app.all('/*', (req, res) => {
 //////////// Turn on server ///////////
 const PORT = primaryServerPort || auxiliarServerPort || 8080
 const server = httpServer.listen(PORT, SERVER_INTERFACE, () => {
-    console.log(`Servidor http escuchando en el puerto ${server.address().port}`)
+    console.log(`Servidor http escuchando en el puerto ${server.address().port} con la interface ${server.address().address} `)
 });
 server.on('error', error => console.log(`Error en servidor ${error}`));
